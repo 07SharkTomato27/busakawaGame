@@ -9,7 +9,9 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.iframe,
 		C3.Plugins.Button,
 		C3.Plugins.progressbar,
+		C3.Plugins.gamepad,
 		C3.Plugins.Keyboard.Cnds.IsKeyDown,
+		C3.Plugins.gamepad.Cnds.IsButtonDown,
 		C3.Plugins.Sprite.Acts.MoveForward,
 		C3.Plugins.Sprite.Cnds.IsOverlappingOffset,
 		C3.Plugins.System.Acts.CreateObject,
@@ -50,11 +52,12 @@ self.C3_JsPropNameTable = [
 	{スプライト: 0},
 	{スプライト2: 0},
 	{スプライト4: 0},
-	{スプライト5: 0},
+	{haikei: 0},
 	{スプライト6: 0},
 	{プログレスバー: 0},
 	{ボタン: 0},
 	{スプライト7: 0},
+	{ゲームパッド: 0},
 	{kuurudaun: 0}
 ];
 
@@ -81,9 +84,10 @@ self.InstanceType = {
 	スプライト: class extends self.ISpriteInstance {},
 	スプライト2: class extends self.ISpriteInstance {},
 	スプライト4: class extends self.ISpriteInstance {},
-	スプライト5: class extends self.ISpriteInstance {},
+	haikei: class extends self.ISpriteInstance {},
 	スプライト6: class extends self.ISpriteInstance {},
 	プログレスバー: class extends self.IProgressBarInstance {},
 	ボタン: class extends self.IButtonInstance {},
-	スプライト7: class extends self.ISpriteInstance {}
+	スプライト7: class extends self.ISpriteInstance {},
+	ゲームパッド: class extends self.IInstance {}
 }
