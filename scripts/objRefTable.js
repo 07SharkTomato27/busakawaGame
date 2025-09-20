@@ -11,7 +11,6 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.progressbar,
 		C3.Plugins.gamepad,
 		C3.Plugins.Keyboard.Cnds.IsKeyDown,
-		C3.Plugins.gamepad.Cnds.IsButtonDown,
 		C3.Plugins.Sprite.Acts.MoveForward,
 		C3.Plugins.Sprite.Cnds.IsOverlappingOffset,
 		C3.Plugins.System.Acts.CreateObject,

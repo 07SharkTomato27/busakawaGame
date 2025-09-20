@@ -1247,9 +1247,9 @@ function or(l, r)
 }
 
 self.C3_ExpressionFuncs = [
-		() => 0,
 		() => 10,
 		() => -10,
+		() => 0,
 		p => {
 			const n0 = p._GetNode(0);
 			const n1 = p._GetNode(1);
